@@ -1,0 +1,164 @@
+# ============================================================================
+# About 页面内容 —— 中英双语单一数据源
+# 说明：本文件从原 _data/home.yml 拆分而来，仅供 About 页面使用。
+# ============================================================================
+
+hero:
+  name_en: "Jiayi Zhou"
+  name_zh: "周家屹"
+  subtitle_en: "Ph.D. Candidate · UCAS / CASISD · Beijing"
+  subtitle_zh: "博士研究生 · 中国科学院大学 / 中科院科技战略咨询研究院 · 北京"
+  keywords:
+    - en: "Money View"
+      zh: "货币视角"
+    - en: "Crypto Assets"
+      zh: "加密资产"
+    - en: "Biophysical Economics"
+      zh: "生物物理经济学"
+    - en: "ML & Causal Inference"
+      zh: "机器学习与因果推断"
+
+about:
+  paragraphs:
+    - en: >-
+        I am a Ph.D. candidate at the Institutes of Science and Development,
+        Chinese Academy of Sciences (CASISD), affiliated with the School of
+        Public Policy and Management, University of Chinese Academy of Sciences
+        (UCAS). My supervisor is [Prof. Jian-Feng Guo](https://people.ucas.ac.cn/~Guojf).
+      zh: >-
+        我是中国科学院科技战略咨询研究院（CASISD）的博士研究生，
+        就读于中国科学院大学公共政策与管理学院，
+        导师为[郭剑锋研究员](https://people.ucas.ac.cn/~Guojf)。
+    - en: >-
+        My research focuses on **crypto finance and stablecoin economics**,
+        spanning decentralized finance (DeFi), systemic risk and financial
+        stability, international financial markets, and machine learning /
+        causal inference in finance. My doctoral dissertation examines the
+        impact of USD stablecoins on international financial markets through
+        a multi-method empirical framework.
+      zh: >-
+        我的研究聚焦**加密金融与稳定币经济学**，涵盖去中心化金融（DeFi）、
+        系统性风险与金融稳定、国际金融市场，以及金融中的机器学习与因果推断。
+        我的博士论文通过多方法实证框架，系统考察美元稳定币对国际金融市场的影响。
+    - en: >-
+        A Bitcoiner at heart, I stay active in the Chinese-speaking crypto
+        community and keep close track of Bitcoin and the broader digital-asset
+        ecosystem.
+      zh: >-
+        我是一名 Bitcoiner，积极参与华语加密社区，持续关注比特币及更广泛的
+        数字资产生态。
+
+philosophy:
+  cards:
+    - title_en: "First Principles"
+      title_zh: "第一性原理"
+      en: >-
+        I start with fundamental elements, relationships, and constraints,
+        reasoning from these foundations to understand how complex phenomena
+        arise and how systems operate, and to build explanatory frameworks.
+      zh: >-
+        我倾向于从事物最基本的构成、关系与约束出发，逐层推演复杂现象的形成与运行逻辑，并在此基础上构建解释框架。
+
+    - title_en: "AI-Augmented Research"
+      title_zh: "AI 增强科研"
+      en: >-
+        I use AI to explore ideas and make research more efficient, while
+        maintaining independent judgment and responsibility for my conclusions.
+      zh: >-
+        我把 AI 作为拓展思路、提高研究效率的伙伴，同时保持独立判断，对研究结论负责。
+
+    - title_en: "Causal Inference"
+      title_zh: "因果推断"
+      en: >-
+        I seek to understand why things happen and how effects propagate,
+        testing explanations against credible evidence and carefully
+        distinguishing causation from correlation.
+      zh: >-
+        我希望理解现象为何发生、变化如何传导，用可信的证据检验解释，谨慎区分相关性与因果关系。
+
+    - title_en: "Reproducibility & Open Source"
+      title_zh: "可复现性与开源"
+      en: >-
+        I value transparency and reproducibility in research. By sharing work
+        openly, I hope to make knowledge easier to verify, build on, and reuse.
+      zh: >-
+        我重视研究过程的透明与可复现，并通过开放分享，让知识能够被检验、积累与复用。
+
+    - title_en: "ISFC & the Money View"
+      title_zh: "ISFC 与货币视角"
+      en: >-
+        I understand finance through balance sheets and monetary relationships,
+        focusing on connections among participants and the institutions that
+        shape the flow of funds.
+      zh: >-
+        我从资产负债表与货币关系理解金融体系，关注不同主体之间的联系，以及资金流动背后的制度逻辑。
+
+    - title_en: "New Economic Thinking"
+      title_zh: "新的经济学思想"
+      en: >-
+        I draw on different economic traditions and other disciplines to study
+        how energy, money, and power interact to shape economic activity.
+      zh: >-
+        我对不同经济学传统与跨学科视角保持开放，尤其关注能源、货币与权力如何相互作用，共同塑造经济活动。
+
+  quote:
+    zh_text: "科学，就是相信专家也会无知。"
+    zh_source: "理查德·费曼"
+    en_text: "Science is the belief in the ignorance of experts."
+    en_source: "Richard Feynman"
+
+education:
+  - period: "2023.09 – Present"
+    period_zh: "2023.09 至今"
+    en: >-
+      **Ph.D. Candidate** in Management Science and Engineering,
+      University of Chinese Academy of Sciences /
+      Institutes of Science and Development, CAS.
+      Advisor: [Prof. Jian-Feng Guo](https://people.ucas.ac.cn/~Guojf).
+    zh: >-
+      **博士研究生**，管理科学与工程专业，
+      中国科学院大学 /
+      中国科学院科技战略咨询研究院。
+      导师：[郭剑锋研究员](https://people.ucas.ac.cn/~Guojf)。
+  - period: "2019.09 – 2023.06"
+    period_zh: "2019.09 – 2023.06"
+    en: >-
+      **Bachelor of Management** in Financial Management (Accounting),
+      School of Economics and Management, China University of Petroleum, Beijing.
+    zh: >-
+      **管理学学士**，财务管理（会计）专业，
+      中国石油大学（北京）经济管理学院。
+
+hobbies:
+  - name_en: "Swimming"
+    name_zh: "游泳"
+    en: "All four competitive strokes: freestyle, breaststroke, backstroke, and butterfly."
+    zh: "掌握全部四种竞技泳姿：自由泳、蛙泳、仰泳与蝶泳。"
+  - name_en: "Reading & History"
+    name_zh: "阅读与历史"
+    en: "Extensive reading in ancient Chinese history and the history of the Chinese Communist Party; see [my Goodreads profile](https://www.goodreads.com/user/show/203794463-jia-yi)."
+    zh: "广泛阅读中国古代史、中国共产党历史相关书籍；详见[我的 Goodreads 主页](https://www.goodreads.com/user/show/203794463-jia-yi)。"
+  - name_en: "OpenGov: Mapping China's Institutions"
+    name_zh: "OpenGov：中国机构图谱"
+    en: >-
+      I am building OpenGov, a project similar in concept to WorldMonitor,
+      focused on China's institutions and public affairs. I map central and
+      local institutions, including party and government bodies, the military,
+      state-owned enterprises, civic organizations, universities, and hospitals,
+      and link them to their leaders, policies, and public finance records.
+    zh: "我正在构建 OpenGov，一个类似 WorldMonitor、聚焦中国机构与公共事务的项目。我梳理从中央到地方的机构设置，将党政机关、军队、央企、社会组织、高校和医院与其主要负责人、相关政策及财政收支记录联系起来。"
+  - name_en: "GIS & Satellite Imagery"
+    name_zh: "GIS 与卫星影像"
+    en: "I am building a dataset of land-use areas of interest (AOIs) in Beijing."
+    zh: "我正在构建北京市用地 AOI（兴趣区域）数据集。"
+  - name_en: "Online University"
+    name_zh: "网络大学"
+    en: >-
+      I am building an online university and writing the textbooks and teaching
+      materials for 100 courses with help from AI. I plan to deploy the platform
+      on a blockchain and issue certificates of learning there.
+    zh: "我正在建设一所网络大学，在 AI 辅助下亲自为 100 门课程编写教材、制作课件。未来计划将平台部署到区块链上，为学习者颁发学习证书。"
+  - name_en: "Movies & Games"
+    name_zh: "电影与游戏"
+    en: 'Avid cinephile with 1,000+ films and TV series watched; see [my Douban profile](https://www.douban.com/people/dbzjy). I also enjoy real-time strategy games.'
+    zh: '资深影迷，观影量逾 1000 部电影与电视剧；详见[我的豆瓣主页](https://www.douban.com/people/dbzjy)。同时喜欢即时战略游戏。'

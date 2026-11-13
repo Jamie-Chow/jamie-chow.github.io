@@ -1,0 +1,164 @@
+# Jiayi Zhou's Academic Homepage
+#
+# 基于 AcadHomepage 模板 (https://github.com/RayeRen/acad-homepage.github.io)
+
+# Site Settings
+title                    : "Jiayi Zhou (周家屹)"
+description              : "Ph.D. Candidate at Institutes of Science and Development, Chinese Academy of Sciences. Research on crypto finance, stablecoin economics, DeFi, systemic risk, and machine learning in finance."
+description_zh           : "中国科学院科技战略咨询研究院博士研究生。研究方向：加密金融、稳定币经济学、DeFi、系统性风险与金融机器学习。"
+repository               : "Jamie-Chow/jamie-chow.github.io"
+url                      : "https://jamie-chow.github.io"
+baseurl                  : ""
+google_scholar_stats_use_cdn : true
+
+# google analytics
+google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+
+# SEO Related
+google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
+baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+
+# Site Author
+author:
+  name             : "Jiayi Zhou (周家屹)"
+  avatar           : "images/personalphoto.jpg"
+  bio              : "Ph.D. Candidate @ UCAS / CASISD"
+  bio_zh           : "博士生 @ 中国科学院大学 / 中科院战略咨询院"
+  location         : "Beijing, China"
+  employer         :
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=qcxrzQcAAAAJ&hl=zh-CN"
+  email            : "zhoujiayi23@mails.ucas.ac.cn"
+  researchgate     : "https://www.researchgate.net/profile/Jiayi-Zhou-48"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "Jamie-Chow"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      :
+  lastfm           :
+  linkedin         :
+  dblp             :
+  orcid            : "https://orcid.org/0009-0006-6143-2650"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: page
+    values:
+      layout: default
+      author_profile: true
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+# permalink: /:categories/:title/  # 全局 permalink 已禁用；各页面在 front matter 中自行指定
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

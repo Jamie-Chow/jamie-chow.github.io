@@ -1,0 +1,17 @@
+# main links — bilingual titles
+main:
+  - title: "About"
+    title_zh: "简介"
+    url: "/"
+
+  - title: "Research"
+    title_zh: "研究"
+    url: "/research/"
+
+  - title: "Research Outputs"
+    title_zh: "研究成果"
+    url: "/publications/"
+
+  - title: "Skills"
+    title_zh: "技能"
+    url: "/skills/"
